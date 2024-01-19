@@ -1,27 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-
-	<title>Caremed - How It Works</title>
-
-	<meta name="keywords" content="Caremed HTML5 Responsive Template Medicine COVID-19 Corona Hospital" />
-	<meta name="description" content="Caremed - Hospital HTML5 Responsive Template">
-		
-	<!-- Favicon -->
-	<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-	
-	<!-- Plugins CSS File -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/datepicker.min.css">
-
-	<!-- Main CSS File -->
-	<link rel="stylesheet" href="assets/css/style.min.css">
-	<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
-	
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    
+        <title>Caremed - Home 1</title>
+    
+        <meta name="keywords" content="Caremed HTML5 Responsive Template Medicine COVID-19 Corona Hospital" />
+        <meta name="description" content="Caremed - Hospital HTML5 Responsive Template">
+            
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+        
+        <!-- Plugins CSS File -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/plugins/datepicker.min.css">
+    
+        <!-- Main CSS File -->
+        <link rel="stylesheet" href="assets/css/style.min.css">
+        <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
+    
+        <link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
+    
+    
+        <style>
+    
+        .title_head{
+            margin-bottom: 0px;
+        }
+    
+        .title_link{
+            display:block;
+            font-size: small;
+            color:#fff;
+            padding:.75rem 0;
+            width:-webkit-max-content;
+            width:-moz-max-content;
+            width:max-content;
+            position:relative;
+            -webkit-transition:all .25s ease;
+            transition:all .25s ease
+        }
+        .title_box .title_link::before{
+            content:'';
+            display:block;
+            position:absolute;
+            left:0;
+            right:0rem;
+            bottom:1rem;
+            height:.1rem;
+            background-color:#fff;
+            -webkit-transform-origin:right center;
+            transform-origin:right center;
+            -webkit-transform:scale(0, 1);
+            transform:scale(0, 1);
+            -webkit-transition:
+            -webkit-transform .3s ease;
+            transition:-webkit-transform .3s ease;
+            transition:transform .3s ease;
+            transition:transform .3s ease,
+             -webkit-transform .3s ease
+        }
+        .title_box .title_link:hover{
+            text-decoration:none
+             
+        }
+    
+        .title_link:hover{
+            color:  #00AFEF;
+            text-decoration: none;
+        }
+        .title_box .title_link:hover::before{
+            -webkit-transform-origin:left center;
+            transform-origin:left center;
+            -webkit-transform:scale(1, 1);
+            transform:scale(1, 1)
+        } 
+    
+        .social-icons {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+    
+            .social-icons li {
+                display: inline-block; /* Display list items horizontally */
+                margin-right: 10px;    /* Add spacing between icons */
+            }
+    
+            .social-link {
+                text-decoration: none;
+                color: #333; /* Adjust the color as needed */
+            }
+    
+            .social-link:hover{
+            color: #00AFEF;
+            }
+            .social-link{
+            color: #1D2A4D;
+            }
+    
+    
+            .dimensions_card{
+                padding:  20px 20px 10px 30px;
+               
+                 background-color:white;
+                   border-radius: 10px;
+            }
+    
+    
+            @media (min-width:768px) {
+                .dimensions_card{
+                    margin-top: -20px;
+                }
+           
+            }
+    
+            @media (min-width:992px) {
+                .width_para{
+                width: 300px;
+            }
+            }
+    
+            @media (max-width:768px) {
+                .dep_min{
+                    
+                  margin-top: -50px;
+                margin-bottom: 30px;
+                }
+                .dep_dep{
+                    
+                  
+                  margin-bottom: 30px;
+                  }
+                  .img_center{
+                    max-width: 100%;
+                  }
+            }
+    
+            .img_center {
+                display: block;
+                margin: 0 auto; /* Center the image */
+                margin-bottom: 20px;
+            }
+    
+            @media (min-width: 576px){
+    
+    
+                .whatsapp_logo {
+           
+    
+    
+                width:5rem;
+                height:20rem;
+                position:fixed;
+                right:45px;
+                bottom:50px;
+                z-index:999;
+               
+             
+                -webkit-box-align:center;
+                -ms-flex-align:center;
+                align-items:center;
+                -webkit-box-pack:center;
+                -ms-flex-pack:center;
+                justify-content:center;
+                text-align:center;
+                line-height:1;
+               
+                border-radius:50%;
+                border:none;
+              
+                font-size:3rem;
+                cursor:pointer;
+                -webkit-transition:all 0.4s ease;
+                transition:all 0.4s ease;
+                -webkit-transform:translateY(60px);
+                transform:translateY(60px);
+                -ms-transform:translateY(60px)
+           
+            }
+                
+            #scroll-top{
+                width:5rem;
+                height:5rem;
+                position:fixed;
+                right:50px;
+                bottom:50px;
+                z-index:999;
+                color:#fff;
+                display:none;
+                -webkit-box-align:center;
+                -ms-flex-align:center;
+                align-items:center;
+                -webkit-box-pack:center;
+                -ms-flex-pack:center;
+                justify-content:center;
+                text-align:center;
+                line-height:1;
+                visibility:hidden;
+                opacity:0;
+                border-radius:50%;
+                border:none;
+                background-color:#283779;
+                font-size:3rem;
+                cursor:pointer;
+                -webkit-transition:all 0.4s ease;
+                transition:all 0.4s ease;
+                -webkit-transform:translateY(60px);
+                transform:translateY(60px);
+                -ms-transform:translateY(60px)
+            }
+            #scroll-top:hover,#scroll-top:focus{
+                color:#fff;
+                background-color:#00AFEF
+            }
+            #scroll-top.show{
+                visibility:visible;
+                opacity:1;
+                transform:translateY(0);
+                -webkit-transform:translateY(0);
+                -ms-transform:translateY(0)
+            }
+           
+                #scroll-top{
+                    display:-webkit-box;
+                    display:-ms-flexbox;
+                    display:flex
+                }
+            } 
+    
+            @media (max-width: 576px){
+    
+                .whatsapp_logo {
+           
+    
+    
+           width:5rem;
+           height:20rem;
+           position:fixed;
+           right:7px;
+           bottom:50px;
+           z-index:999;
+          
+        
+           -webkit-box-align:center;
+           -ms-flex-align:center;
+           align-items:center;
+           -webkit-box-pack:center;
+           -ms-flex-pack:center;
+           justify-content:center;
+           text-align:center;
+           line-height:1;
+          
+           border-radius:50%;
+           border:none;
+         
+           font-size:3rem;
+           cursor:pointer;
+           -webkit-transition:all 0.4s ease;
+           transition:all 0.4s ease;
+           -webkit-transform:translateY(60px);
+           transform:translateY(60px);
+           -ms-transform:translateY(60px)
+      
+       }
+    
+    
+            #scroll-top{
+                width:5rem;
+                height:5rem;
+                position:fixed;
+                right:10px;
+                bottom:50px;
+                z-index:999;
+                color:#fff;
+                display:none;
+                -webkit-box-align:center;
+                -ms-flex-align:center;
+                align-items:center;
+                -webkit-box-pack:center;
+                -ms-flex-pack:center;
+                justify-content:center;
+                text-align:center;
+                line-height:1;
+                visibility:hidden;
+                opacity:0;
+                border-radius:50%;
+                border:none;
+                background-color:#283779;
+                font-size:3rem;
+                cursor:pointer;
+                -webkit-transition:all 0.4s ease;
+                transition:all 0.4s ease;
+                -webkit-transform:translateY(60px);
+                transform:translateY(60px);
+                -ms-transform:translateY(60px)
+            }
+            #scroll-top:hover,#scroll-top:focus{
+                color:#fff;
+                background-color:#00AFEF
+            }
+            #scroll-top.show{
+                visibility:visible;
+                opacity:1;
+                transform:translateY(0);
+                -webkit-transform:translateY(0);
+                -ms-transform:translateY(0)
+            }
+           
+                #scroll-top{
+                    display:-webkit-box;
+                    display:-ms-flexbox;
+                    display:flex
+                }
+            } 
+     
+    
+    
+            
+        </style>
+        
+    </head>
 <body> 	
     <!------------------------------------------------
 	loading overlay - start
@@ -325,90 +626,124 @@
             explore section - end
 			------------------------------------------------>
         </main>
-        <!------------------------------------------------
+     <!------------------------------------------------
 		footer - start
 		------------------------------------------------>
-		<footer class="footer bg-primary-color">
-			<div class="container">
-				<div class="footer-top">
-					<div class="row d-flex align-items-center justify-content-center">
-						<div class="col-lg-6 col-sm-7 col-10">
-							<a href="index.html" class="logo">
-								<img src="assets/images/logo-sm.png" alt="Caremed Logo" width="185" height="48">
-							</a>
-						</div>
-						<div class="col-lg-6 col-sm-7 col-10 d-lg-flex justify-content-lg-end">
-							<div class="social-links">
-								<a href="#" class="social-link"><i class="fab fa-twitter"></i><span>Twitter</span></a>
-								<a href="#" class="social-link"><i class="fab fa-facebook"></i><span>Facebook</span></a>
-								<a href="#" class="social-link"><i class="fab fa-youtube"></i><span>Youtube</span></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-middle">
-					<div class="container">
-						<div class="row d-flex justify-content-center">
-							<div class="col-lg-3 col-sm-7 col-10">
-								<div class="info-box">
-									<h6 class="info-title">Company</h6>
-									<ul class="info-list">
-										<li><a href="#" class="info-link">About</a></li>
-										<li><a href="#" class="info-link">Our Doctors</a></li>
-										<li><a href="#" class="info-link">Latest Blog</a></li>
-										<li><a href="#" class="info-link">Careers</a></li>
-										<li><a href="#" class="info-link">Contact</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-lg-3 col-sm-7 col-10">
-								<div class="info-box">
-									<h6 class="info-title">Support</h6>
-									<ul class="info-list">
-										<li><a href="#" class="info-link">Reviews</a></li>
-										<li><a href="#" class="info-link">FAQs</a></li>
-										<li><a href="#" class="info-link">Help Center</a></li>
-										<li><a href="#" class="info-link">Doctors</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-lg-3 col-sm-7 col-10">
-								<div class="info-box">
-									<h6 class="info-title">Legal</h6>
-									<ul class="info-list">
-										<li><a href="#" class="info-link">Term of use</a></li>
-										<li><a href="#" class="info-link">Code of Conduct</a></li>
-										<li><a href="#" class="info-link">Privacy Policy</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-lg-3 col-sm-7 col-10">
-								<div class="info-box">
-									<h6 class="info-title">Company</h6>
-									<form class="input-group input-footer">
-										<input type="email" class="form-control" placeholder="Email address" required>
-										<button type="submit" class="form-action"><i class="fas fa-check-circle"></i></button>
-									</form>
-									<p>Unsubscribe anytime.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-bottom">
+		<footer class="footer  " style="background-color: #1D2A4D;">
+			 
+				 
+			<div class="footer-middle">
+				<div class="container"  style="padding-top: 90px;" >
 					<div class="row d-flex justify-content-center">
-						<div class="col-lg-12 col-sm-7 col-10">
-							<p>© GFXPARTNER</p>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-12 dep_min">
+							<a href="index.html" class="logo">
+								<img class="" src="assets/images/Onestop-Logo.png" alt="Caremed Logo" width="185" height="48">
+							</a>
+
+							<p class="width_para" style="color: white; ">Our goal is to deliver quality of care in a courteous, respectful, and compassionate manner. We hope you will allow us to care for you and strive to be the first and best choice for your family healthcare.</p>
+							<a href="#" style="color: #00AFEF;text-decoration: none;" ><i class="fas fa-arrow-right"></i> Make Appointment</a>
+							
+									
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-6 col-6 dep_dep ">
+							<div class="title_box">
+								<h5 class="title_head" style="color: white;">Departments</h5>
+								<ul class="title_list">
+									<li><a href="#" class="title_link">Dialysis access</a></li>
+									<li><a href="#" class="title_link">Varicose veins</a></li>
+									<li><a href="#" class="title_link">Diabetic foot</a></li>
+									 
+									<li><a href="#" class="title_link">Peripheral-artery-disease</a></li>
+									<li><a href="#" class="title_link">Deep-vein-thrombosis</a></li>
+									<li><a href="#" class="title_link">Emergency vascular services</a></li>
+								</ul>
+							</div>
+						 
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-6 col-6">
+							<div class="title_box">
+								<h5 class="title_head"  style="color: white;" >Links</h5>
+								<ul class="title_list">
+									<li><a href="#" class="title_link">About US</a></li>
+									<li><a href="#" class="title_link">Our Clinic</a></li>
+									<li><a href="#" class="title_link">Appointments</a></li>
+								 
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-12" >
+							<div class="title_box dimensions_card" >
+								<h5 class="  title_head" >Quick Contacts</h5>
+								 
+								<p>
+									Quick Contacts
+									If you have any questions or need help, feel free to contact us for medical assistance</p>
+
+									<h4><i class="fas fa-phone phone-icon"></i> &nbsp;+91 96660 88000</h4>
+								 
+
+								<strong><p style="margin-left: 0px;">CARE Hospitals Outpatient Centre, Babukhan Chambers, Road No. 10, Avenue 4, Banjara Hills, Hyderabad, Telangana 500034 </p></strong>
+								<div class="">
+									<ul class="social-icons">
+										
+										  <li> <a href=""    style="color: #00AFEF; text-decoration: none;" > <i class="fas fa-arrow-right"></i><strong> Get Directions</strong></a></li>
+										
+										<li><a href="#" class="social-link"><i class="fab fa-facebook"></i></a></li>
+										<li><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+										<li><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#" class="social-link"><i class="fab fa-pinterest"></i></a></li>
+										<li><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+									</ul>
+								</div>
+								<div>
+									<ul>
+										
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</footer>
+			 
+			
+		 
+
+	   
+			<div class="container" style="padding-top: 50px; padding-bottom:  10px;">
+			   <div class="row" style="color: white">
+				  <div class="  col-lg-8 col-md-12 col-12">
+					 <div class="footer-widget__copyright">
+						<span>  ©2023  Onestopvascular,<i>All Rights Reserved. Designed & Developed by <a href="https://bhavicreations.com/" target="_blank" style="color: #00AFEF;">BhaviCreations</a></i></span>
+					 </div>
+				  </div> 
+				  <div class="  col-lg-4 col-md-12 col-12">
+					 <div class="footer-widget__copyright-info info-direction">
+						<ul class="d-flex align-items-center">
+						   <li><a href="#" style="color:white">Terms & conditions  &nbsp;&nbsp;&nbsp;&nbsp;</a></li> 
+						   <li><a href="#" style="color:white">Privacy & policy</a></li>
+						 </ul>
+					 </div>
+				  </div>
+			   </div>
+			</div>
+		  
+	</footer>
 		<!------------------------------------------------
 		footer - end
 		------------------------------------------------>
+	
     </div>
-    <button id="scroll-top" title="Back to Top"><i class="fal fa-angle-up"></i></button>
+    
+    <!-- WhatsApp link -->
+
+    <div  class="whatsapp_logo">
+        <a href="https://api.whatsapp.com/send?phone=919666088000&text=Wellcome%20to%20onestop%20vascular "  target="_blank">
+            <img class="logo"class="whatsapp_icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSIjMDBFNjc2IiBkPSJNMTAuNyAzMi44bC42LjNjMi41IDEuNSA1LjMgMi4yIDguMSAyLjIgOC44IDAgMTYtNy4yIDE2LTE2IDAtNC4yLTEuNy04LjMtNC43LTExLjNzLTctNC43LTExLjMtNC43Yy04LjggMC0xNiA3LjItMTUuOSAxNi4xIDAgMyAuOSA1LjkgMi40IDguNGwuNC42LTEuNiA1LjkgNi0xLjV6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTMyLjQgNi40QzI5IDIuOSAyNC4zIDEgMTkuNSAxIDkuMyAxIDEuMSA5LjMgMS4yIDE5LjRjMCAzLjIuOSA2LjMgMi40IDkuMUwxIDM4bDkuNy0yLjVjMi43IDEuNSA1LjcgMi4yIDguNyAyLjIgMTAuMSAwIDE4LjMtOC4zIDE4LjMtMTguNCAwLTQuOS0xLjktOS41LTUuMy0xMi45ek0xOS41IDM0LjZjLTIuNyAwLTUuNC0uNy03LjctMi4xbC0uNi0uMy01LjggMS41TDYuOSAyOGwtLjQtLjZjLTQuNC03LjEtMi4zLTE2LjUgNC45LTIwLjlzMTYuNS0yLjMgMjAuOSA0LjkgMi4zIDE2LjUtNC45IDIwLjljLTIuMyAxLjUtNS4xIDIuMy03LjkgMi4zem04LjgtMTEuMWwtMS4xLS41cy0xLjYtLjctMi42LTEuMmMtLjEgMC0uMi0uMS0uMy0uMS0uMyAwLS41LjEtLjcuMiAwIDAtLjEuMS0xLjUgMS43LS4xLjItLjMuMy0uNS4zaC0uMWMtLjEgMC0uMy0uMS0uNC0uMmwtLjUtLjJjLTEuMS0uNS0yLjEtMS4xLTIuOS0xLjktLjItLjItLjUtLjQtLjctLjYtLjctLjctMS40LTEuNS0xLjktMi40bC0uMS0uMmMtLjEtLjEtLjEtLjItLjItLjQgMC0uMiAwLS40LjEtLjUgMCAwIC40LS41LjctLjguMi0uMi4zLS41LjUtLjcuMi0uMy4zLS43LjItMS0uMS0uNS0xLjMtMy4yLTEuNi0zLjgtLjItLjMtLjQtLjQtLjctLjVoLTEuMWMtLjIgMC0uNC4xLS42LjFsLS4xLjFjLS4yLjEtLjQuMy0uNi40LS4yLjItLjMuNC0uNS42LS43LjktMS4xIDItMS4xIDMuMSAwIC44LjIgMS42LjUgMi4zbC4xLjNjLjkgMS45IDIuMSAzLjYgMy43IDUuMWwuNC40Yy4zLjMuNi41LjguOCAyLjEgMS44IDQuNSAzLjEgNy4yIDMuOC4zLjEuNy4xIDEgLjJoMWMuNSAwIDEuMS0uMiAxLjUtLjQuMy0uMi41LS4yLjctLjRsLjItLjJjLjItLjIuNC0uMy42LS41cy40LS40LjUtLjZjLjItLjQuMy0uOS40LTEuNHYtLjdzLS4xLS4xLS4zLS4yeiI+PC9wYXRoPjwvc3ZnPg==">
+        </a>
+    </div> 
+
+     <button id="scroll-top" title="Back to Top"><i class="fal fa-angle-up"></i></button>
 
     
     <div class="mobile-menu-overlay"></div>
