@@ -13010,4 +13010,25 @@ input[type='password'] {
 
 
 
+    @media (max-width:992px) {
+    
+
+    
+        .non_md{
+            display: none;
+        }
+        }
+        
+        
+        @media (min-width:991px) {
+            
+         
+        
+        .contact_pg{
+        margin-top: -150px;
+        }
+        }
+
+
+
     
