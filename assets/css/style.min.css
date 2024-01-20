@@ -10612,7 +10612,7 @@ input[type='password'] {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 22.5rem 0 13rem 0
+    /* padding: 22.5rem 0 13rem 0 */
 }
 
 .page-header .page-title {
@@ -10621,7 +10621,7 @@ input[type='password'] {
 
 @media (max-width: 991px) {
     .page-header {
-        padding: 12rem 0 6rem 0;
+        /* padding: 12rem 0 6rem 0; */
         text-align: center
     }
 
@@ -12844,7 +12844,7 @@ input[type='password'] {
 
 
         width:5rem;
-        height:20rem;
+        height:16rem;
         position:fixed;
         right:45px;
         bottom:50px;
@@ -13012,7 +13012,10 @@ input[type='password'] {
 
     @media (max-width:992px) {
     
-
+        .puzzle{
+            display: none;
+         }
+            
     
         .non_md{
             display: none;
@@ -13022,13 +13025,84 @@ input[type='password'] {
         
         @media (min-width:991px) {
             
-         
+      
         
         .contact_pg{
         margin-top: -150px;
         }
         }
+ 
+ .car_dem{
+    margin-top: 122px;
+    margin-bottom: -10px;
+ }
 
 
+ @media(max-width:576px){
 
+ .mob_ss{
+        margin-top: -30px;
+    }
+
+
+ }
+ .img_sts{
+    margin-top:  120px ;
+ }
+ @media (min-width:576px) and (max-width:992px){
+   
+   
+     .mob_ss{
+        margin-top: -50px;
+    }
+   
+ }
+
+
+ @media (min-width:576px)and (max-width:992px) {
     
+
+
+ .tog_head{
+    margin-top: -175px;
+    
+ }
+ }
+
+ @media (max-width:576px) {
+    
+
+
+    .tog_head{
+       margin-top: -150px;
+       
+    }
+    }
+
+
+    .contact-form-section {
+        padding-top: 40px;
+        padding-bottom: 80px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        background-color:rgb(255 255 255);
+        height: 610px;
+        /* width: 745px; */
+        border-radius: 15px;
+        border: solid;
+    
+    }
+
+@media (max-width: 992px) {
+    .contact-form-section {
+        padding-top: 126px;
+        padding-bottom: 126px;
+        height: 800px;
+        
+       
+    }
+    .con_hed{
+        margin-top:-80px;
+        
+}
+}
