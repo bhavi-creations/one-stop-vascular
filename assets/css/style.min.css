@@ -13180,3 +13180,15 @@ input[type='password'] {
     }
 
  }
+ .test_pad {
+
+  padding-top: 50px;   
+}
+/* @media (max-width:772px) {
+    
+
+ .test_pad {
+    margin-bottom: -90px ;
+ }
+
+} */
