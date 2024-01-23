@@ -11403,9 +11403,9 @@ input[type='password'] {
     margin-top: 47px
 }
 
-.doctor-preview-section .row.btn-row {
+/* .doctor-preview-section .row.btn-row {
     margin-top: 50px
-}
+} */
 
 @media (max-width: 991px) {
     .doctor-preview-section {
@@ -11421,9 +11421,9 @@ input[type='password'] {
         margin-top: 30px
     }
 
-    .doctor-preview-section .row.btn-row {
+    /* .doctor-preview-section .row.btn-row {
         margin-top: 30px
-    }
+    } */
 }
 
 .bg-section {
@@ -13201,3 +13201,82 @@ input[type='password'] {
     }
    
    }  
+
+   @media (min-width:992px) {
+    
+    .car_con{
+        margin-top: -80px;
+         margin-bottom: -100px;
+    }
+    .dvt_head{
+        margin-top: -100px;
+         margin-bottom: 80px;
+    }
+
+
+    .read_con{
+        margin-top: -120px;
+    }
+
+    .doc_sec{
+        margin-top: -60px;
+    }   
+
+
+    .missi_con{
+        margin-top: -50px; 
+        margin-bottom: -50px;
+    }
+
+    .pad_con{
+        margin-top: 50px;
+    }
+
+.ouy_con{
+    margin-top: -55px;
+    margin-bottom: -55px;
+}
+.more_con{
+    margin-top: -50px;
+    margin-bottom: -60px;
+}
+
+
+
+   }
+
+   @media (max-width:992px) {
+    
+
+    .dvt_head{
+          margin-top: -50px;
+        
+    }
+
+    .doc_sec{
+        margin-top: 30px;
+    }
+    
+
+    .missi_con{
+        margin-top: -20px; 
+    }
+
+    .car_con{
+        margin-top: -80px;
+        margin-bottom: -50px;
+    }
+
+
+    .risk_fat{
+        margin-top: 30px;
+    }
+
+    .risk_con{
+        margin-top: 30px;
+    }
+
+
+
+   }
+      
