@@ -13279,4 +13279,24 @@ input[type='password'] {
 
 
    }
-      
+
+
+.underline {
+    width: 120%;
+    padding: 2px;
+    border-top: 2px dashed #009fdf;
+    height: 1px;
+    background-color: transparent;
+    left: -10%;
+    position: relative;
+}
+
+.doc-button {
+    height:50px;
+    width:auto;
+    padding:5px;  
+    background-color: #009fdf; 
+    color:white;
+    border-width:0px;
+    border-radius:2px;
+}
