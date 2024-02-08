@@ -8,14 +8,14 @@ require 'vendor/autoload.php'; // Adjust the path to autoload.php based on your 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Assign POST data to variables
     $name = $_POST['Name'] ?? '';
-    $Subject = $_POST['Subject'] ?? '';
     $Email = $_POST['Email'] ?? '';
-    $Relationship = $_POST['Relationship'] ?? '';
-   
-    $Message = $_POST['Message'] ?? '';
-    
+    $phone = $_POST['Phone']?? '';
+  
+    $docter = $_POST['Docter'] ?? '';
+    $services = $_POST['Services'] ?? '';
+    $date = $_POST['Date'] ?? '';
+    $time = $_POST['Time'] ?? '';
  
-
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -36,14 +36,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = 'New Message from Contact Form';
+        $mail->Subject = 'New Message from Appointment Form';
         $mail->Body = "
             <h1>New Message</h1>
             <p><strong>Name:</strong> $name</p>
-            <p><strong>Subject:</strong> $Subject</p>
-             <p><strong>Email:</strong> $Email</p>
-            <p><strong>Relationship:</strong> $Relationship</p>
-             <p><strong>Message:</strong><br>$Message</p>
+             <p><strong>Email:</strong>  $Email</p>
+            <p><strong>Phone:</strong> $phone</p>
+             <p><strong>Docter:</strong> $docter</p>
+             
+             <p><strong>Services:</strong> $services</p>
+            <p><strong>Date:</strong> $date</p>
+             <p><strong>Time:</strong> $time</p>
         ";
 
         $mail->send();

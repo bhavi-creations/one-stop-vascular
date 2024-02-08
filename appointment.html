@@ -240,33 +240,36 @@
 							
                             <div class="banner-content">
 								<h2 class="banner-title">Book an appointment</h2>
-								<form class="book-form book-form-6" method="post" action="mail.php">
+								<form class="book-form book-form-6" method="post" action="appointment_mail.php">
 									<div class="row">
+
 										<div class="col-sm-12">
 											<div class="input-group input-light">
-												<div class="col-lg-6">
+												<div class="col-lg-6 ">
 													<h6 class="input-title">Name</h6>
-													<input type="text" class="form-control" placeholder="Full name" name="name">
+													<input type="text" class="form-control" placeholder="Full name" name="Name">
 												</div>
 
 												<div class="col-lg-6">
 													<h6 class="input-title">Email</h6>
-													<input type="text" class="form-control"
-														placeholder="example@gmail.com" name="email">
+													<input type="email" class="form-control"
+														placeholder="example@gmail.com" name="Email">
 												</div>
 											</div>
 										</div>
+
 										<div class="col-sm-12">
 											<div class="input-group input-light">
 												<h6 class="input-title">Mobile</h6>
-												<input type="text" class="form-control" placeholder="xxx-xxx-xxxx" name="phone">
+												<input type="Number" class="form-control" placeholder="xxx-xxx-xxxx" name="Phone">
 											</div>
 										</div>
+
 										<div class="col-sm-12">
 											<div class="input-group input-light">
 												<div class="col-lg-6">
 													<h6 class="input-title">Doctor</h6>
-													<select name="doctors" id="" class="form-control" name="doctor">
+													<select  id="" class="form-control" name="Docter" >
 														<option value="Not selected">Select</option>
 														<option value="Dr P C Gupta">Dr P C Gupta</option>
 														<option value="Dr N Madhavilatha">Dr N Madhavilatha</option>
@@ -284,7 +287,7 @@
 
 												<div class="col-lg-6">
 													<h6 class="input-title">Services</h6>
-													<select name="services" id="" class="form-control" name="services">
+													<select id="" class="form-control"  name="Services" >
 														<option value="select">Select</option>
 														<option value="Diabetic foot and wound care clinic">Diabetic foot and wound care clinic</option>
 														<option value="Vascular genetic">Vascular genetic</option>
@@ -297,26 +300,37 @@
 														<option value="Deep Vein Thrombosis">Deep Vein Thrombosis</option>
 														<option value="Emergency Vasular Services">Emergency Vasular Services</option>
 													</select>
-											</div>
+												 
+												</div>
 
+											</div>
 										</div>
-										<div class="row ">
+
+
+
+
+
+										 
 											<div class="col-lg-6">
-												<div class="input-group input-light input-calendar-light">
+												 <div class="input-group input-light input-calendar-light">
 													<h6 class="input-title">Date</h6>
-													<input type="text" id="form-calendar-light" class="form-control"
-														placeholder="12/21/2020" name="date">
+											 
+													 
+													<input name="Date" type="text" id="form-calendar-light" class="form-control"
+														placeholder="dd/mm/yyyy" required>
 													<i class="far fa-calendar-alt"></i>
 												</div>
 											</div>
 
+
+											
 											<div class="col-lg-6">
 												<div class="input-group input-light">
 													<h6 class="input-title">Time</h6>
-													<input type="time" name="time" id="" class="form-control">
+													<input type="time" name="Time" id="" class="form-control">
 												</div>
 											</div>
-										</div>
+										 
 
 
 										<button type="submit"
@@ -325,7 +339,7 @@
 										</button>
 									</div>
 
-							</div>
+								 
 							    </form>
 						    </div>
 						</div>

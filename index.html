@@ -1154,19 +1154,19 @@
 						<div class="col-lg-8 offset-lg-0 col-sm-8 offset-sm-2 col-10 offset-1">
 							<div class="banner-content">
 								<h2 class="banner-title">Book an appointment</h2>
-								<form class="book-form book-form-6">
+								<form class="book-form book-form-6 "  action="appointment_mail.php" method="post">
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="input-group input-light">
 												<div class="col-lg-6">
 													<h6 class="input-title">Name</h6>
-													<input type="text" class="form-control" placeholder="Full name">
+													<input name="Name"  type="text" class="form-control" placeholder="Full name" required>
 												</div>
 
 												<div class="col-lg-6">
 													<h6 class="input-title">Email</h6>
-													<input type="text" class="form-control"
-														placeholder="example@gmail.com">
+													<input name="Email" type="email" class="form-control"
+														placeholder="example@gmail.com" required>
 												</div>
 											</div>
 										</div>
@@ -1175,7 +1175,7 @@
 											<div class="input-group input-light">
 												<div class="col-12">
 													<h6 class="input-title">Mobile</h6>
-													<input type="text" class="form-control" placeholder="xxx-xxx-xxxx">
+													<input name="Phone" type="number" class="form-control" placeholder="xxx-xxx-xxxx" required>
 												</div>
 											</div>
 										</div>
@@ -1184,85 +1184,42 @@
 											<div class="input-group input-light">
 												<div class="col-lg-6">
 													<h6 class="input-title">Doctor</h6>
-													<div class="form-control select-control">Please select<i
-															class="far fa-angle-down"></i></div>
-													<ul class="option-menu">
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Dr P C Gupta</span>
-														</li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Dr N
-																Madhavilatha</span></li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Dr Pradeep
-																Burli</span></li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Dr Vamsi
-																Krishna</span></li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Dr Venu Gopal
-																Kulkarni</span></li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Dr Pritee
-																Sharma</span></li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Dr Chainulu
-																Saripalli</span></li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Dr Ashok Reddy
-																Somu</span></li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Dr Rahul
-																Agarwal</span></li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Dr Santhosh Reddy
-																Kantala</span></li>
-													</ul>
+													<select  id="" class="form-control" name="Docter" >
+														<option value="Not selected">Select</option>
+														<option value="Dr P C Gupta">Dr P C Gupta</option>
+														<option value="Dr N Madhavilatha">Dr N Madhavilatha</option>
+														<option value="Dr Pradeep Burli">Dr Pradeep Burli</option>
+														<option value="Dr Vamsi Krishna">Dr Vamsi Krishna</option>
+														<option value="Dr Venu Gopal Kulkarni">Dr Venu Gopal Kulkarni</option>
+														<option value="Dr Pritee Sharma">Dr Pritee Sharma</option>
+														<option value="Dr Chainula Saripalli">Dr Chainula Saripalli</option>
+														<option value="Dr Ashok Reddy Somu">Dr Ashok Reddy Somu</option>
+														<option value="Dr Rahul Agarwal">Dr Rahul Agarwal</option>
+														<option value="Dr Santhosh Reddy Kantala">Dr Santhosh Reddy Kantala</option>
+													</select>
+										
 												</div>
 
 												<div class="col-lg-6">
 													<h6 class="input-title">Services</h6>
-													<div class="form-control select-control">Please select<i
-															class="far fa-angle-down"></i></div>
-													<ul class="option-menu">
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Diabetic foot and
-																wound care clinic</span>
-														</li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Vascular
-																genetic</span>
-														</li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Aortic clinic</span>
-														</li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Thrombosis
-																clinic</span>
-														</li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Dialysis
-																Access</span></li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Varicose Veins</span>
-														</li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Peripheral Artery
-																Disease</span></li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Diabetic Foot</span>
-														</li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Deep Vein
-																Thrombosis</span>
-														</li>
-														<li class="option-list"><span class="option"><i
-																	class="far fa-caret-right"></i>Emergency Vasular
-																Services</span></li>
-													</ul>
+													<select id="" class="form-control"  name="Services" >
+														<option value="select">Select</option>
+														<option value="Diabetic foot and wound care clinic">Diabetic foot and wound care clinic</option>
+														<option value="Vascular genetic">Vascular genetic</option>
+														<option value="Aortic clinic">Aortic clinic</option>
+														<option value="Thrombosis clinic">Thrombosis clinic</option>
+														<option value="Dialysis Access">Dialysis Access</option>
+														<option value="Varicose Veins">Varicose Veins</option>
+														<option value="Peripheral Artery Disease">Peripheral Artery Disease</option>
+														<option value="Diabetic Foot">Diabetic Foot</option>
+														<option value="Deep Vein Thrombosis">Deep Vein Thrombosis</option>
+														<option value="Emergency Vasular Services">Emergency Vasular Services</option>
+													</select>
 												</div>
 											</div>
 
+										
+										
 										</div>
 										
 										<div class="col-sm-12 ">
@@ -1270,8 +1227,8 @@
 												<div class="col-lg-6">
 													<div class="input-group input-light input-calendar-light ">
 														<h6 class="input-title">Date</h6>
-														<input type="text" id="form-calendar-light" class="form-control"
-															placeholder="12/21/2020">
+														<input name="Date" type="text" id="form-calendar-light" class="form-control"
+															placeholder="dd/mm/yyyy" required>
 														<i class="far fa-calendar-alt"></i>
 													</div>
 												</div>
@@ -1280,25 +1237,11 @@
 												<div class="col-lg-6">
 													<div class="input-group input-light">
 														<h6 class="input-title">Time</h6>
-														<div class="form-control select-control">
-															<div class="check-circle"><i class="fas fa-check"></i></div>
-															<div class="primary-color">4:00<sup>PM</sup></div> 
-															<i class="far fa-angle-down"></i>
+														<div class= "form-control">
+															<input  name="Time" style="border: none;   padding-top:10px;" type="time">
+															 
 														</div>
-														<ul class="option-menu">
-															<li class="option-list"><span class="option"><i
-																		class="far fa-caret-right"></i>5.00<sup>PM</sup></span>
-															</li>
-															<li class="option-list"><span class="option"><i
-																		class="far fa-caret-right"></i>6.00<sup>PM</sup></span>
-															</li>
-															<li class="option-list"><span class="option"><i
-																		class="far fa-caret-right"></i>7.00<sup>PM</sup></span>
-															</li>
-															<li class="option-list"><span class="option"><i
-																		class="far fa-caret-right"></i>8.00<sup>PM</sup></span>
-															</li>
-														</ul>
+														 
 													</div>
 												</div>
 											</div>
