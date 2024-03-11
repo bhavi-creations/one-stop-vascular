@@ -4081,9 +4081,26 @@ sup {
     align-items: center
 }
 
-.header-top {
-    height: 48px
+
+
+
+
+@media(min-width:992px) and (max-width: 1200px){
+    .header-top a {
+        font-size: 0.9rem !important;
+    }
 }
+@media(min-width:1200px) and (max-width: 1330px){
+    .header-top a {
+        font-size: 1.2rem !important;
+    }
+}
+
+.header-top {
+    height: 48px;
+}
+
+
 
 .header-top a {
     font-size: 1.4rem;
