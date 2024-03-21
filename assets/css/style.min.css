@@ -11844,9 +11844,9 @@ input[type='password'] {
     width: 100%
 }
 
-.doctor-detailed-section .banner-content .banner-subcontent .subcontent-menu {
-    /* width: 100% */
-}
+/* .doctor-detailed-section .banner-content .banner-subcontent .subcontent-menu {
+    width: 100% 
+} */
 
 .doctor-detailed-section .doctor-detailed-image img:not(.puzzle) {
     width: 100%;
