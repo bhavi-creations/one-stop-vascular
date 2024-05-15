@@ -15,7 +15,7 @@ body {
     background: #fff;
     font-size: 1.8rem;
     font-weight: 400;
-    line-height: 1.25;
+    /* line-height: 1.25; */
     font-family: "Manrope";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -5329,7 +5329,7 @@ input[type='password'] {
 }
 
 .icon-box {
-    padding: 3rem 5rem;
+    /* padding: 3rem 5rem; */
     background-color: #fff;
     border-radius: 30px;
     min-width: 95px
@@ -5356,7 +5356,7 @@ input[type='password'] {
 
 .icon-box .box-title {
     color: #5e616c;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 2.8rem;
     font-weight: 700;
     margin-bottom: 0
@@ -5446,7 +5446,7 @@ input[type='password'] {
 }
 
 .icon-box.icon-box-left {
-    padding: 1.9rem 3rem;
+    /* padding: 1.9rem 3rem;     */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5513,7 +5513,7 @@ input[type='password'] {
 
 .icon-box.hover-border .box-title {
     font-size: 2.4rem;
-    line-height: 4rem;
+    line-height: 3rem;
     color: #283779;
     margin-bottom: 1.5rem
 }
@@ -9803,4 +9803,9 @@ input[type='password'] {
 .underlinehover:hover {
     color:#063bca;
     text-decoration:underline;
+}
+
+.main-head {
+    font-size: 38px;
+    
 }
