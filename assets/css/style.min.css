@@ -586,11 +586,11 @@ sup {
 
 .header-top a {
     font-size: 1.4rem;
-    color: #5e616c
+    color: white
 }
 
 .header-top i {
-    color: #b2dded;
+    color: white;
     margin-right: .5rem;
     -webkit-transition: color .3s ease;
     transition: color .3s ease
@@ -602,7 +602,7 @@ sup {
 }
 
 .header-top a:hover {
-    color: #283779
+    color: white
 }
 
 .header-top a:hover i {
