@@ -5681,7 +5681,7 @@ input[type='password'] {
 }
 
 .card-heading .card-title {
-    margin-left: 1.7rem;
+    margin-left: 1.7rem; 
     line-height: 3.4rem
 }
 
@@ -9808,4 +9808,10 @@ input[type='password'] {
 .main-head {
     font-size: 38px;
     
+}
+
+@media(max-width:768px) {
+    .heading-align {
+        font-size: 20px !important;
+    }
 }
