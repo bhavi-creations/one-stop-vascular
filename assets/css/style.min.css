@@ -3098,6 +3098,13 @@ body:not(.loaded) * {
     border-radius: 3rem
 }
 
+@media(max-width:768px) {
+    .img-aside {
+        margin-top: -40px !important;
+        margin-bottom: -20px !important;
+    }
+}
+
 .banner-aside figure .puzzle {
     height: auto;
     left: -4rem;
@@ -9818,4 +9825,11 @@ input[type='password'] {
 
 .footer-logo {
     border-radius: 10px;
+}
+
+.background {
+    background-color: #00AFEF;
+}
+.blog-card-text {
+    color: white;
 }
