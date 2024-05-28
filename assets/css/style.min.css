@@ -3099,7 +3099,7 @@ body:not(.loaded) * {
 }
 
 @media(max-width:768px) {
-    .img-aside {
+    .home-img {
         margin-top: -40px !important;
         margin-bottom: -20px !important;
     }
