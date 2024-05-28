@@ -31,8 +31,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('dharmadanandini@gmail.com', 'One Stop Vascular Solutions'); // Your Gmail email and name
-        $mail->addAddress('carehospitals0011@gmail.com', 'One Stop Vascular Solutions'); // Recipient's email and name
+        $mail->setFrom('carehospitals0011@gmail.com', 'One Stop Vascular Solutions'); // Your Gmail email and name
+        $mail->addAddress('onestopvascular@gmail.com', 'One Stop Vascular Solutions'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
