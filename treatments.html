@@ -24,7 +24,20 @@
 		<link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
 	
 	
-	  
+        <script>
+            // scripts.js
+            document.addEventListener("DOMContentLoaded", function() {
+                // Ensure the preloader is visible initially
+                const preloader = document.getElementById('preloader');
+                const content = document.getElementById('content');
+    
+                // Listen for the window load event to hide the preloader
+                window.addEventListener('load', function() {
+                    preloader.style.display = 'none';
+                    content.style.display = 'block';
+                });
+            });
+        </script>
 		
 	</head>
 	
@@ -32,13 +45,9 @@
     <!------------------------------------------------
 	loading overlay - start
 	------------------------------------------------>
-	<div class="loading-overlay">
-		<div class="bounce-loader">
-			<div class="bounce1"></div>
-			<div class="bounce2"></div>
-			<div class="bounce3"></div>
-		</div>
-	</div>
+    <div id="preloader">
+        <img src="assets/images/logo_upscaled.png"  class="preloader-logo">
+    </div>
 	<!------------------------------------------------
 	loading overlay - end
 	------------------------------------------------>
