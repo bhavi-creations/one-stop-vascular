@@ -9832,6 +9832,10 @@ input[type='password'] {
 }
 .blog-card-text {
     color: white;
+    font-weight: bolder;
+    font-size: 20px;
+   
+
 }
 
 /* loader  */
@@ -9862,6 +9866,10 @@ input[type='password'] {
     height: auto;
 }
 
+.internal-links {
+    color:#0018ef !important;
+    font-weight: bold;
+}
 
 
 
