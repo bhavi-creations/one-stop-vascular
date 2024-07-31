@@ -25,14 +25,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'carehospitals0011@gmail.com'; // Your Gmail email address
-        $mail->Password = 'vezxajifcoqlrbur'; // Your Gmail password
+        $mail->Username = 'onestopvascularsolutions@gmail.com'; // Your Gmail email address
+        $mail->Password = 'dnwrgzvuklfixvtf'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('carehospitals0011@gmail.com', 'One Stop Vascular Solutions'); // Your Gmail email and name
-        $mail->addAddress('onestopvascular@gmail.com', 'One Stop Vascular Solutions'); // Recipient's email and name
+        $mail->setFrom('onestopvascularsolutions@gmail.com', 'One Stop Vascular Solutions'); // Your Gmail email and name
+        $mail->addAddress('onestopvascularsolutions@gmail.com', 'One Stop Vascular Solutions'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
