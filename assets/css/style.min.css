@@ -9873,3 +9873,11 @@ input[type='password'] {
 
 
 
+
+
+
+.scroll-container {
+    max-height: 650px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
