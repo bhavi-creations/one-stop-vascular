@@ -9881,3 +9881,10 @@ input[type='password'] {
     overflow-y: auto;
     overflow-x: hidden;
 }
+
+
+
+
+.blog_main_img{
+    border-radius: 20px !important;
+}
